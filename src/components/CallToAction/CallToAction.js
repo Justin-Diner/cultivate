@@ -9,16 +9,18 @@ const CallToAction = () => {
                 </div>
                 <div id="CTA_text_items_wrapper">
                     <div id="CTA_quote">
-                        <p id="CTA_experience">Experience The Finest Events In Your Area</p>
+                        <p id="CTA_experience">Experience The Finest Events In Miami</p>
                     </div>
                     <div id="CTA_enter_email">
-                        <p>Enter Your Email</p>
+                        <p>Enter Your Email And Explore</p>
                     </div>
                     <div id="CTA_email_input">
                         <label>
                             <input id="CTA_email_input_box" type="text" placeholder="Email"/>
                         </label>
-                        <div id="CTA_submit_button"></div>
+                        <div id="CTA_submit_button">
+                            <i class="fas fa-glass-cheers"></i>
+                        </div>
                     </div>
                 </div>
             </div>

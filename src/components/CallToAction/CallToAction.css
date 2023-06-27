@@ -31,8 +31,8 @@
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 100%;
-    width: 200%;
+    height: 120%;
+    width: 220%;
 }
 
 #CTA_text_items_wrapper {
@@ -75,10 +75,29 @@
     height: 32px;
 }
 
+#CTA_email_input_box {
+    height: 32px;
+    border: none;
+    outline: none; 
+}
+
 #CTA_submit_button {
     width: 40px;
-    height: 32px;
-    background-color: blue;
+    height: 34px;
     position: relative;
     left: 4px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-weight: 800
+}
+
+.fa-champagne-glass {
+    height: 100%;
+    width: 100%;
+    color: black;
 }
